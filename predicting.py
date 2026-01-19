@@ -8,7 +8,7 @@ import numpy as np
 ###############################################################################
 #######Read The xlsx file############
 
-cholera_df = pd.read_excel(r"C:\Users\rnsdo\OneDrive\Attachments\Desktop\Python and Microsoft Certificatse\cisco networking academy\My projects\cholera\cholera.xlsx")
+cholera_df = pd.read_excel("cholera.xlsx")
 
 
 ###############################################################################
@@ -58,3 +58,4 @@ with trend_col2:
     st.markdown("Use this as a guide for strategic planning.")
 
 st.write("---")
+

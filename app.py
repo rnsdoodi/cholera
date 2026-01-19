@@ -25,7 +25,7 @@ pages = {
 
 
 with st.sidebar:
-    st.image(r"C:\Users\rnsdo\OneDrive\Attachments\Desktop\Python and Microsoft Certificatse\cisco networking academy\My projects\cholera\who.jpg", use_container_width=True)
+    st.image("who.jpg", use_container_width=True)
     # st.markdown("### Clinical Analysis Lab")
     st.divider()
 
@@ -34,5 +34,6 @@ with st.sidebar:
 
 pg = st.navigation(pages)
 pg.run()
+
 
 

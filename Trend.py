@@ -6,7 +6,7 @@ import seaborn as sns
 ###############################################################################
 #######Read The xlsx file############
 
-cholera_df = pd.read_excel(r"C:\Users\rnsdo\OneDrive\Attachments\Desktop\Python and Microsoft Certificatse\cisco networking academy\My projects\cholera\cholera.xlsx")
+cholera_df = pd.read_excel("cholera.xlsx")
 
 
 ###############################################################################
@@ -115,3 +115,4 @@ st.write("---")
 
 ###############################################################################
 ###############################################################################
+
